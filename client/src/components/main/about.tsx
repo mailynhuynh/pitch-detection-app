@@ -3,33 +3,81 @@ import React from 'react';
 export function About() {
   return (
     <div className="container">
-      <h2>A Rust + WebAssembly Pitch Detector</h2>
-      <h3>Authors</h3>
-      <span>Alessandro Genova, Jason Siefken</span>
-      <h3>Core Library</h3>
-      <span>
-        <a
-          href="https://github.com/alesgenova/pitch-detection"
-          target="_blank"
-          rel="noreferrer"
-        >
-          Source
-        </a>
-        <br />
-        (rust)
-      </span>
-      <h3>Demo App</h3>
-      <span>
-        <a
-          href="https://github.com/alesgenova/pitch-detection-app"
-          target="_blank"
-          rel="noreferrer"
-        >
-          Source
-        </a>
-        <br />
-        (wasm, react)
-      </span>
+      <h2>Karaoke Club</h2>
+      <p>aofdjaowiefoawehnfoaiwehfoaiwehfoaiwhefoiawheofihawoiehfaaofdjaowiefoawehnfoaiwehfoaiwehfoaiwhefoiawheofihawoiehfaaofdjaowiefoawehnfoaiwehfoaiwehfoaiwhefoiawheofihawoiehfaaofdjaowiefoawehnfoaiwehfoaiwehfoaiwhefoiawheofihawoiehfaaofdjaowiefoawehnfoaiwehfoaiwehfoaiwhefoiawheofihawoiehfaaofdjaowiefoawehnfoaiwehfoaiwehfoaiwhefoiawheofihawoiehfaaofdjaowiefoawehnfo
+        aiwehfoaiwehfoaiwhefoiawheo
+        fihawoiehfaaofdjaowiefoawehnfoaiw
+        ehfoaiwehfoaiwhefoiawheofihawoiehfaa
+        ofdjaowiefoawehnfoaiwehfoaiwehfoaiwhe
+        foiawheofihawoiehfaaofdjaowiefoawehnfoa
+        iwehfoaiwehfoaiwhefoiawheofihawoiehfaao
+        fdjaowiefoawehnfoaiwehfoaiwehfoaiwhefoi
+        awheofihawoiehfaaofdjaowiefoawehnfoaiweh
+        foaiwehfoaiwhefoiawheofihawoiehfaaofdjao
+        wiefoawehnfoaiwehfoaiwehfoaiwhefoiawheofi
+        hawoiehfaaofdjaowiefoawehnfoaiwehfoaiwehf
+        oaiwhefoiawheofihawoiehfa
+        aofdjaowiefoawehnfoaiwehfoaiwehfoaiwhefoiawheofihawoiehfa
+        aofdjaowiefoawehnfoaiwehfoaiwehfoaiwhefoiawheofihawoiehfa
+        aofdjaowiefoawehnfoaiwehfoaiwehfoaiwhefoiawheofihawoiehfa
+        aofdjaowiefoawehnfoaiwehfoaiwehfoaiwhefoiawheofihawoiehfa
+        aofdjaowiefoawehnfoaiwehfoaiwehfoaiwhefoiawheofihawoiehfa
+        aofdjaowiefoawehnfoaiwehfoaiwehfoaiwhefoiawheofihawoiehfa
+        aofdjaowiefoawehnfoaiwehfoaiwehfoaiwhefoiawheofihawoiehfa
+        aofdjaowiefoawehnfoaiwehfoaiwehfoaiwhefoiawheofihawoiehfa
+        aofdjaowiefoawehnfoaiwehfoaiwehfoaiwhefoiawheofihawoiehfa
+        aofdjaowiefoawehnfoaiwehfoaiwehfoaiwhefoiawheofihawoiehfa
+        aofdjaowiefoawehnfoaiwehfoaiwehfoaiwhefoiawheofihawoiehfa
+        aofdjaowiefoawehnfoaiwehfoaiwehfoaiwhefoiawheofihawoiehfa
+        aofdjaowiefoawehnfoaiwehfoaiwehfoaiwhefoiawheofihawoiehfa
+        aofdjaowiefoawehnfoaiwehfoaiwehfoaiwhefoiawheofihawoiehfa
+        aofdjaowiefoawehnfoaiwehfoaiwehfoaiwhefoiawheofihawoiehfa
+        aofdjaowiefoawehnfoaiwehfoaiwehfoaiwhefoiawheofihawoiehfa
+        aofdjaowiefoawehnfoaiwehfoaiwehfoaiwhefoiawheofihawoiehfa
+        aofdjaowiefoawehnfoaiwehfoaiwehfoaiwhefoiawheofihawoiehfa
+        aofdjaowiefoawehnfoaiwehfoaiwehfoaiwhefoiawheofihawoiehfa
+        aofdjaowiefoawehnfoaiwehfoaiwehfoaiwhefoiawheofihawoiehfa
+        aofdjaowiefoawehnfoaiwehfoaiwehfoaiwhefoiawheofihawoiehfa
+        aofdjaowiefoawehnfoaiwehfoaiwehfoaiwhefoiawheofihawoiehfa
+        aofdjaowiefoawehnfoaiwehfoaiwehfoaiwhefoiawheofihawoiehfa
+        aofdjaowiefoawehnfoaiwehfoaiwehfoaiwhefoiawheofihawoiehfa
+        aofdjaowiefoawehnfoaiwehfoaiwehfoaiwhefoiawheofihawoiehfa
+        aofdjaowiefoawehnfoaiwehfoaiwehfoaiwhefoiawheofihawoiehfa
+        aofdjaowiefoawehnfoaiwehfoaiwehfoaiwhefoiawheofihawoiehfa
+        aofdjaowiefoawehnfoaiwehfoaiwehfoaiwhefoiawheofihawoiehfa
+        aofdjaowiefoawehnfoaiwehfoaiwehfoaiwhefoiawheofihawoiehfa
+        aofdjaowiefoawehnfoaiwehfoaiwehfoaiwhefoiawheofihawoiehfa
+        aofdjaowiefoawehnfoaiwehfoaiwehfoaiwhefoiawheofihawoiehfa
+        aofdjaowiefoawehnfoaiwehfoaiwehfoaiwhefoiawheofihawoiehfa
+        aofdjaowiefoawehnfoaiwehfoaiwehfoaiwhefoiawheofihawoiehfa
+        aofdjaowiefoawehnfoaiwehfoaiwehfoaiwhefoiawheofihawoiehfa
+        aofdjaowiefoawehnfoaiwehfoaiwehfoaiwhefoiawheofihawoiehfa
+        aofdjaowiefoawehnfoaiwehfoaiwehfoaiwhefoiawheofihawoiehfa
+        aofdjaowiefoawehnfoaiwehfoaiwehfoaiwhefoiawheofihawoiehfa
+        aofdjaowiefoawehnfoaiwehfoaiwehfoaiwhefoiawheofihawoiehfa
+        aofdjaowiefoawehnfoaiwehfoaiwehfoaiwhefoiawheofihawoiehfa
+        aofdjaowiefoawehnfoaiwehfoaiwehfoaiwhefoiawheofihawoiehfa
+        aofdjaowiefoawehnfoaiwehfoaiwehfoaiwhefoiawheofihawoiehfa
+        aofdjaowiefoawehnfoaiwehfoaiwehfoaiwhefoiawheofihawoiehfa
+        aofdjaowiefoawehnfoaiwehfoaiwehfoaiwhefoiawheofihawoiehfa
+        aofdjaowiefoawehnfoaiwehfoaiwehfoaiwhefoiawheofihawoiehfa
+        aofdjaowiefoawehnfoaiwehfoaiwehfoaiwhefoiawheofihawoiehfa
+        aofdjaowiefoawehnfoaiwehfoaiwehfoaiwhefoiawheofihawoiehfa
+        aofdjaowiefoawehnfoaiwehfoaiwehfoaiwhefoiawheofihawoiehfa
+        aofdjaowiefoawehnfoaiwehfoaiwehfoaiwhefoiawheofihawoiehfa
+        aofdjaowiefoawehnfoaiwehfoaiwehfoaiwhefoiawheofihawoiehfa
+        aofdjaowiefoawehnfoaiwehfoaiwehfoaiwhefoiawheofihawoiehfa
+        aofdjaowiefoawehnfoaiwehfoaiwehfoaiwhefoiawheofihawoiehfa
+        aofdjaowiefoawehnfoaiwehfoaiwehfoaiwhefoiawheofihawoiehfa
+        aofdjaowiefoawehnfoaiwehfoaiwehfoaiwhefoiawheofihawoiehfa
+        aofdjaowiefoawehnfoaiwehfoaiwehfoaiwhefoiawheofihawoiehfa
+        aofdjaowiefoawehnfoaiwehfoaiwehfoaiwhefoiawheofihawoiehfa
+        aofdjaowiefoawehnfoaiwehfoaiwehfoaiwhefoiawheofihawoiehfa
+        aofdjaowiefoawehnfoaiwehfoaiwehfoaiwhefoiawheofihawoiehfa
+        aofdjaowiefoawehnfoaiwehfoaiwehfoaiwhefoiawheofihawoiehfa
+        aofdjaowiefoawehnfoaiwehfoaiwehfoaiwhefoiawheofihawoiehfa
+        aofdjaowiefoawehnfoaiwehfoaiwehfoaiwhefoiawheofihawoiehfa
+        </p>
     </div>
   );
 }

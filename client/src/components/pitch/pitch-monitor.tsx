@@ -10,7 +10,7 @@ interface PitchSetup {
 interface PitchProps {
   stream: MediaStream;
   workerConnection: Connection<{}, WorkerMethods, {}>;
-  detectorName: 'autocorrelation' | 'mcleod';
+  detectorName: 'mcleod';
   windowSize: number;
   powerThreshold: number;
   clarityThreshold: number;

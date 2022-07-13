@@ -3,7 +3,6 @@ mod utils;
 use wasm_bindgen::prelude::*;
 
 use pitch_detection::detector::PitchDetector;
-use pitch_detection::detector::autocorrelation::{AutocorrelationDetector as AutocorrelationDetectorInternal};
 use pitch_detection::detector::mcleod::{McLeodDetector as McLeodDetectorInternal};
 use pitch_detection::detector::internals::Pitch;
 
@@ -12,26 +11,6 @@ use pitch_detection::detector::internals::Pitch;
 #[cfg(feature = "wee_alloc")]
 #[global_allocator]
 static ALLOC: wee_alloc::WeeAlloc = wee_alloc::WeeAlloc::INIT;
-
-#[wasm_bindgen]
-pub struct AutocorrelationDetector {
-    wrapped: AutocorrelationDetectorInternal<f32>
-}
-
-#[wasm_bindgen]
-impl AutocorrelationDetector {
-    pub fn new(size: usize, padding: usize) -> Self {
-        let wrapped = AutocorrelationDetectorInternal::<f32>::new(size, padding);
-        AutocorrelationDetector{
-            wrapped
-        }
-    }
-
-    pub fn get_pitch(&mut self, signal: &[f32], sample_rate: usize, power_threshold: f32, clarity_threshold: f32, pitch: &mut [f32])  {
-        let result = self.wrapped.get_pitch(signal, sample_rate, power_threshold, clarity_threshold);
-        pitch_option_to_output(result, pitch);
-    }
-}
 
 #[wasm_bindgen]
 pub struct McLeodDetector {

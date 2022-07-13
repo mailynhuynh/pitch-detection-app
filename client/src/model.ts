@@ -8,7 +8,7 @@ import {
 } from 'easy-peasy';
 import { Connection, ParentHandshake, WorkerMessenger } from 'post-me';
 
-type Detector = 'mcleod' | 'autocorrelation';
+type Detector = 'mcleod';
 type DisplayType = 'chart' | 'circle';
 
 interface StoreModel {
@@ -47,7 +47,7 @@ export const store = createStore<StoreModel>({
   windowSize: 1024,
   detectorName: 'mcleod',
   displayType: 'chart',
-  clarityThreshold: 0.5,
+  clarityThreshold: 0.7,
   enabled: false,
   loading: false,
   loaded: false,

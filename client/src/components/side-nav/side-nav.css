@@ -92,13 +92,7 @@
   outline: 1px dotted white;
 }
 .sidenav-text {
-  opacity: 0;
   transition: opacity 0.2s;
-  width: calc(var(--sidenav-open-width) - var(--sidenav-closed-width));
-  min-width: calc(var(--sidenav-open-width) - var(--sidenav-closed-width));
-}
-.expanded .sidenav-text {
-  opacity: 1;
 }
 
 .sidenav-extra {

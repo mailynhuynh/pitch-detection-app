@@ -1,6 +1,6 @@
 export type WorkerMethods = {
   createDetector: (
-    name: 'autocorrelation' | 'mcleod',
+    name: 'mcleod',
     size: number,
     padding: number
   ) => void;

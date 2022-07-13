@@ -1,7 +1,4 @@
-import init, {
-  AutocorrelationDetector,
-  McLeodDetector,
-} from 'pitch-detection-wasm';
+import init, { McLeodDetector } from 'pitch-detection-wasm';
 import { WorkerMessenger, ChildHandshake } from 'post-me';
 import 'regenerator-runtime';
 
@@ -11,7 +8,6 @@ init('./pitch_detection_wasm_bg.wasm').then(() => {
   const messenger = new WorkerMessenger({ worker: self as any });
 
   let detector:
-    | AutocorrelationDetector
     | McLeodDetector
     | undefined = undefined;
 
@@ -22,10 +18,6 @@ init('./pitch_detection_wasm_bg.wasm').then(() => {
         detector = undefined;
       }
       switch (name) {
-        case 'autocorrelation': {
-          detector = AutocorrelationDetector.new(size, padding);
-          break;
-        }
         case 'mcleod': {
           detector = McLeodDetector.new(size, padding);
           break;
